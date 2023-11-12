@@ -41,7 +41,7 @@ ul {list-style-type: none;}
     color:#404BBF;
 }
 
-.adress-list {
+address {
     font-style: normal;
 }
 
@@ -52,9 +52,13 @@ ul {list-style-type: none;}
     letter-spacing: 0.02em;    
 }
 
-.adress-items-link:hover, .adress-items-link:focus {
+.adress-items-link:hover {
     color: #404BBF;
 } 
+
+.adress-items-link:focus {
+    color: #404BBF;
+}
 
 .main-title {
     background:#2E2F42;
@@ -80,8 +84,12 @@ h1 {
     letter-spacing: 0.04em;
 }
 
-.main-button:hover, .main-button:focus {
+.main-button:hover {
     background: #404BBF;
+}
+
+.main-button:focus {
+    color: #404BBF;
 }
 
 .our-team {
