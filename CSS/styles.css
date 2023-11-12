@@ -11,7 +11,7 @@ ul {list-style-type: none;}
 }
 
 .logo-up {
-    color:#2E2F42;
+    color:#4d5ae5;
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -21,7 +21,7 @@ ul {list-style-type: none;}
 }
 
 .logo-accent {
-    color:#4D5AE5;
+    color:#2e2f42;
 }
 
 .navigation-link {
@@ -41,15 +41,18 @@ ul {list-style-type: none;}
     color:#404BBF;
 }
 
+.adress-list {
+    font-style: normal;
+}
+
 .adress-items-link {
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-    font-style: normal;
+    letter-spacing: 0.02em;    
 }
 
-.adress-items-link:hover {
+.adress-items-link:hover, .adress-items-link:focus {
     color: #404BBF;
 } 
 
@@ -57,28 +60,28 @@ ul {list-style-type: none;}
     background:#2E2F42;
 }
 
-.main-button {
-    cursor: pointer;
-    background: #4D5AE5;
-    color:#FFF;
-    font-family: inherit;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1,5;
-    letter-spacing: 0.04em;
-}
-
-.main-button:hover {
-    background: #404BBF;
-}
-
 h1 {
     color:#FFF;
     text-align: center;
     font-size: 56px;
     font-weight: 700;
-    line-height: 1,07;
+    line-height: 1.07;
     letter-spacing: 0.02em;
+}
+
+.main-button {
+    cursor: pointer;
+    background: #4D5AE5;
+    color:#FFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.main-button:hover, .main-button:focus {
+    background: #404BBF;
 }
 
 .our-team {
@@ -94,9 +97,14 @@ h2 {
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1,11;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+}
+
+.section-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 h3 {
@@ -113,14 +121,18 @@ h3 {
 
 .logo-down {
     text-decoration: none;
-    color:#F4F4FD;
-    font-family: Raleway;
+    color:#4d5ae5;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
         }
+
+.logo-part {
+    color: #f4f4fd;
+}
 
 .footer-text {
     color:#F4F4FD;
